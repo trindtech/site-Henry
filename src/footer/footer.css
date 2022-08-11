@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../Montserrat-VariableFont_wght.ttf') format('truetype');
+}
+:root {
+
+    --corPrincipal: #EA394E;
+    --corAuxiliar1: #0DA8FF;
+    --corAuxiliar2: #01E66F;
+
+    --fonte-padrao: 'Montserrat';
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.Footer {
+    font-family: var(--fonte-padrao);
+    color: white;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin: auto;
+    text-align: center;
+    background-image:  url('../elements/banner-footer.png');
+}
+
+.Links {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Links img {
+    width: 50px;
+}

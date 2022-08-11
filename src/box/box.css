@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../Montserrat-VariableFont_wght.ttf') format('truetype');
+}
+:root {
+
+    --corPrincipal: #EA394E;
+    --corAuxiliar1: #0DA8FF;
+    --corAuxiliar2: #01E66F;
+
+    --fonte-padrao: 'Montserrat';
+}
+
+.Card {
+    padding-top: 15px;
+    font-family: var(--fonte-padrao);
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Box {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 15px; 
+    min-width: 250px;
+    box-shadow: 0px 0px 5px black;
+    text-align: center;
+}
+
+.btn {
+    padding-top: 5px;
+    background-color: transparent;
+    border: none;
+}
+
+.btn img {
+    width: 30px;
+}

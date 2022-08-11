@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../Montserrat-VariableFont_wght.ttf') format('truetype');
+}
+
+:root {
+
+    --corPrincipal: #EA394E;
+    --corAuxiliar1: #0DA8FF;
+    --corAuxiliar2: #01E66F;
+    --bs-black-trind-rgb: #333333;
+
+    --fonte-padrao: 'Montserrat';
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header {
+    font-family: var(--fonte-padrao);
+    color: var(--corPrincipal);
+    min-height: 745px;
+    background-image: url('../elements/background-header.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.activeColor{
+    width: 100%;
+    position: fixed;
+    background-color: black;
+    height: 70px;
+    padding-bottom: 100px;
+    transition: all ease 0.3s;
+}
+
+.logo img {
+    position: absolute;
+    width: 135px;
+    height: 25px;
+    left: 100px;
+    top: 38px;
+}
+
+.frase-header {
+    color: white;
+    position: absolute;
+    width: 606px;
+    height: 120px;
+    left: 100px;
+    top: 285px;
+    font-weight: 300;
+    font-size: 27px;
+    line-height: 200%;
+}
+
+.frase-header b {
+    color: var(--corPrincipal);
+}
+
+.itens-link a {
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 16px;
+    position: absolute;
+    line-height: 120%;
+}
+
+.itens-link a:hover {
+    text-decoration: underline;
+}
+
+.para-empresas {
+    width: 130px;
+    height: 19px;
+    left: 780px;
+    top: 40px;
+}
+
+.para-mentores {
+    width: 130px;
+    left: 940px;
+    top: 40px;
+}
+
+.para-estudantes {
+    width: 130px;
+    left: 1100px;
+    top: 40px;
+}
+
+.contato {
+    width: 145px;
+    left: 1260px;
+    top: 40px;
+}

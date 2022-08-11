@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../Montserrat-VariableFont_wght.ttf') format('truetype');
+}
+
+:root {
+
+    --corPrincipal: #EA394E;
+    --corAuxiliar1: #0DA8FF;
+    --corAuxiliar2: #01E66F;
+
+    --fonte-padrao: 'Montserrat';
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.Body {
+    margin: auto;
+    text-align: center;
+    font-family: 'Montserrat';
+}
+
+.icon-direction img {
+    padding-top: 30px;
+}
+
+.pq-trindtech {
+    padding: 50px;
+    font-weight: 900px;
+    font-size: 20px;
+}
+
+.Divs {
+    text-align: center;
+    margin: auto;
+    gap: 0px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding-bottom: 150px;
+}
+
+.boxes {
+    margin: auto;
+    padding: 15px;
+    max-width: 280px;
+}
+
+.boxes img {
+    width: 33px;
+}
+
+.boxes p {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.hashtags {
+    border-radius: 50px;
+    background: #FFC0C8;
+    padding: 7px;
+}
+
+.dt {
+    margin: auto;
+    height: 600px;
+    background-color: black;
+    background-image: url('../elements/Maskgroup.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.dt p {
+    margin: auto;
+    text-align: center;
+    padding-top: 80px;
+    color: #828282;
+    width: 285px;
+
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+
+.duvidas {
+    height: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+.duvidas h2 {
+    height: 40px;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 36px;
+    letter-spacing: 0.03em;
+    padding: 70px;
+}
+
+.duvidas p {
+    height: 30px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    padding-top: 10px;
+}
+
+.duvidas h4{
+    padding-top: 20px;
+}
+.duvidas a {
+    padding: 7px;
+    text-decoration: none;
+    border: 1px solid var(--corPrincipal);
+    color: var(--corPrincipal);
+    border-radius: 25px;
+}
+
+.duvidas a:hover {
+    transition: all 0.4s;
+    border: 1px solid black;
+    box-shadow: 0px 1px 1px 0px black;
+}
